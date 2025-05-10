@@ -1,0 +1,25 @@
+Dustbin locator
+Server Setup:
+The Node.js server loads dustbin data from a JSON file and serves a web interface using Express.
+
+Real-Time Updates:
+The server uses Socket.IO to send dustbin data and updates (like fill level changes) to all connected clients in real time.
+
+User Location:
+The web app gets the user’s current location using the browser’s geolocation API.
+
+Nearest Bin Calculation:
+When the user’s location is sent to the server, the server calculates the nearest dustbin using the Haversine distance formula and sends this info back to the client.
+
+Map Display:
+The client displays all dustbins and the user’s location on a Leaflet map, updating markers and info dynamically.
+
+Directions:
+The app uses Leaflet Routing Machine to draw a route from the user’s location to the nearest dustbin.
+
+Simulated Fill Levels:
+The server periodically increases each bin’s fill level slowly, simulating usage, but never lets it exceed 90%.
+
+Reset Functionality:
+An API endpoint (/reset-bins) allows resetting all bins’ fill levels to zero, simulating collection.
+
