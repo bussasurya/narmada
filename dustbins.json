@@ -1,0 +1,199 @@
+{
+  "dustbins": [
+    {
+      "id": "DB001",
+      "location": {
+        "address": "MG Road",
+        "area": "Bangalore",
+        "coordinates": {
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      },
+      "binDetails": {
+        "fillLevel": 65,
+        "capacity": 100,
+        "wasteType": "Organic",
+        "lastCollected": "2025-05-09"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "lastServiced": "2025-05-08"
+      }
+    },
+    {
+      "id": "DB002",
+      "location": {
+        "address": "Brigade Road",
+        "area": "Bangalore",
+        "coordinates": {
+          "latitude": 12.9740,
+          "longitude": 77.6132
+        }
+      },
+      "binDetails": {
+        "fillLevel": 42,
+        "capacity": 120,
+        "wasteType": "Plastic",
+        "lastCollected": "2025-05-10"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "lastServiced": "2025-05-09"
+      }
+    },
+    {
+      "id": "DB003",
+      "location": {
+        "address": "Nehru Road",
+        "area": "Mysore",
+        "coordinates": {
+          "latitude": 12.2958,
+          "longitude": 76.6394
+        }
+      },
+      "binDetails": {
+        "fillLevel": 90,
+        "capacity": 80,
+        "wasteType": "E-waste",
+        "lastCollected": "2025-05-08"
+      },
+      "maintenance": {
+        "status": "Needs Maintenance",
+        "lastServiced": "2025-05-01"
+      }
+    },
+    {
+      "id": "KAL001",
+      "location": {
+        "city": "Kalaburagi",
+        "district": "Kalaburagi",
+        "area": "Super Market",
+        "address": "Station Road, Near Super Market",
+        "coordinates": {
+          "latitude": 17.3297,
+          "longitude": 76.8343
+        }
+      },
+      "binDetails": {
+        "type": "Standard Bin",
+        "capacity": 150,
+        "fillLevel": 75,
+        "wasteType": "Mixed",
+        "lastCollected": "2025-05-08T16:00:00Z",
+        "installDate": "2024-02-05"
+      },
+      "maintenance": {
+        "status": "Collection Required",
+        "nextScheduledMaintenance": "2025-05-11",
+        "responsibleAuthority": "Kalaburagi City Corporation"
+      }
+    },
+    {
+      "id": "DVG001",
+      "location": {
+        "city": "Davangere",
+        "district": "Davangere",
+        "area": "PJ Extension",
+        "address": "PJ Extension, Near District Hospital",
+        "coordinates": {
+          "latitude": 14.4644,
+          "longitude": 75.9218
+        }
+      },
+      "binDetails": {
+        "type": "Standard Bin",
+        "capacity": 170,
+        "fillLevel": 50,
+        "wasteType": "Mixed",
+        "lastCollected": "2025-05-09T11:30:00Z",
+        "installDate": "2024-03-10"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "nextScheduledMaintenance": "2025-05-24",
+        "responsibleAuthority": "Davangere City Corporation"
+      }
+    },
+    {
+      "id": "TUM001",
+      "location": {
+        "city": "Tumakuru",
+        "district": "Tumakuru",
+        "area": "Bus Stand",
+        "address": "BH Road, Near KSRTC Bus Stand",
+        "coordinates": {
+          "latitude": 13.3379,
+          "longitude": 77.1173
+        }
+      },
+      "binDetails": {
+        "type": "Standard Bin",
+        "capacity": 160,
+        "fillLevel": 65,
+        "wasteType": "Mixed",
+        "lastCollected": "2025-05-09T07:15:00Z",
+        "installDate": "2024-02-15"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "nextScheduledMaintenance": "2025-05-19",
+        "responsibleAuthority": "Tumakuru City Corporation"
+      }
+    },
+    {
+      "id": "SHI001",
+      "location": {
+        "city": "Shivamogga",
+        "district": "Shivamogga",
+        "area": "Nehru Road",
+        "address": "Nehru Road, Near Gandhi Park",
+        "coordinates": {
+          "latitude": 13.9299,
+          "longitude": 75.5667
+        }
+      },
+      "binDetails": {
+        "type": "Standard Bin",
+        "capacity": 150,
+        "fillLevel": 70,
+        "wasteType": "Mixed",
+        "lastCollected": "2025-05-09T10:00:00Z",
+        "installDate": "2024-01-20"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "nextScheduledMaintenance": "2025-05-21",
+        "responsibleAuthority": "Shivamogga City Corporation"
+      }
+    },
+    {
+      "id": "VIJ001",
+      "location": {
+        "city": "Vijayapura",
+        "district": "Vijayapura",
+        "area": "Station Road",
+        "address": "Station Road, Near Railway Station",
+        "coordinates": {
+          "latitude": 16.8302,
+          "longitude": 75.7100
+        }
+      },
+      "binDetails": {
+        "type": "Standard Bin",
+        "capacity": 140,
+        "fillLevel": 55,
+        "wasteType": "Mixed",
+        "lastCollected": "2025-05-09T08:00:00Z",
+        "installDate": "2024-03-05"
+      },
+      "maintenance": {
+        "status": "Operational",
+        "nextScheduledMaintenance": "2025-06-02",
+        "responsibleAuthority": "Vijayapura City Corporation"
+      }
+    }
+  ]
+}
+
+
